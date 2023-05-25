@@ -24,7 +24,7 @@ const Hero = () => {
           </h2>
 
           <p className="mb-6 text-center text-gray-400 md:text-left">
-            Sou um desenvolvedor full-stack que ama criar coisas para a web.
+            Sou um desenvolvedor full-stack que ama criar soluções web inovadoras, do front-end ao back-end, com foco na experiência do usuário.
             Atualmente trabalho como freelancer e transformo ideias em sites e
             aplicações web.
           </p>
@@ -34,7 +34,7 @@ const Hero = () => {
               href="#contact"
               className="underline-thickness-2 font-bold text-white underline decoration-2 underline-offset-4 transition hover:decoration-blue-700"
             >
-              Fale comigo
+              Entre em contato
             </a>
             <span className="italic text-gray-500">ou</span>
             <a
@@ -47,7 +47,6 @@ const Hero = () => {
             </a>
           </div>
         </div>
-
         <div className="basis-1/2"></div>
       </div>
     </section>
