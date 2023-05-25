@@ -20,6 +20,8 @@
     "dot-location": ["error", "property"],
     "dot-notation": ["error", { "allowKeywords": true }],
     "indent": ["error", 2, { "SwitchCase": 1 }],
-    "max-len": ["error", { "code": 120 }]
+    "max-len": ["error", { "code": 120 }],
+    "semi": ["error", "always"],
+    "eol-last": ["error", "always"]
   }
 }

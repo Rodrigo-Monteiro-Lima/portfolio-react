@@ -1,8 +1,11 @@
-import './App.css'
+import './App.css';
+import About from './components/About';
 
 const App = () => {
   return (
-    <h1 className='text-4xl bg-red-400'>App</h1>
+    <main>
+      <About />
+    </main>
   )
 }
 
