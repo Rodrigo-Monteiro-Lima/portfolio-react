@@ -238,7 +238,7 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      <div className="absolute right-0 -mt-[6px] h-3 w-48 rounded-l-full bg-gradient-to-r from-gray-700 to-gray-600 md:w-96" />
+      {/* <div className="absolute right-0 -mt-[6px] h-3 w-48 rounded-l-full bg-gradient-to-r from-gray-700 to-gray-600 md:w-96" /> */}
     </>
   )
 };

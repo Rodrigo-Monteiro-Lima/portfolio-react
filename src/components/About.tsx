@@ -41,7 +41,7 @@ const About = () => {
                 <td>
                   <a
                     href="tel:+551299999999"
-                    className="underline hover:text-blue-800"
+                    className="hover:text-blue-800"
                   >
                     +55 75 98841-7590
                   </a>
@@ -54,7 +54,7 @@ const About = () => {
                 <td>
                   <a
                     href="mailto:rodrigoml2395@gmail.com"
-                    className="underline hover:text-blue-800"
+                    className="hover:text-blue-800"
                   >
                     rodrigoml2395@gmail.com
                   </a>
@@ -68,7 +68,7 @@ const About = () => {
                   <a
                     href="https://goo.gl/maps/u1EMTjLqjMDsv2Hn8"
                     target="_blank"
-                    className="underline hover:text-blue-800"
+                    className="hover:text-blue-800"
                   >
                     Paulo Afonso - BA
                   </a>

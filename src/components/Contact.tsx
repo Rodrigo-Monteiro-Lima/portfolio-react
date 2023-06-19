@@ -150,22 +150,23 @@ const Contact = () => {
           </div>
           <div className="basis-1/3">
             {contacts.map((contact, index) => (
-              <div
+              <a
+                href={contact.link}
+                target="_blank"
                 key={`contact-${index}`}
                 className="mb-4 flex items-center gap-4 rounded-lg border border-dashed border-gray-400 p-4"
               >
                 {contact.icon}
                 <div>
                   <p className="font-headline font-semibold">{contact.name}</p>
-                  <a
-                    href={contact.link}
-                    target="_blank"
-                    className="text-gray-300 underline underline-offset-2"
+                  <span
+                    
+                    className="text-gray-300 underline-offset-2"
                   >
                     {contact.description}
-                  </a>
+                  </span>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>

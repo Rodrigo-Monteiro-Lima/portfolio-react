@@ -5,9 +5,9 @@ const Skills = () => {
     {
       name: "Curso de Desenvolvimento Web Full Stack | Trybe",
     },
-    {
-      name: "Curso de Desenvolvimento Mobile | Rocketseat",
-    },
+    // {
+    //   name: "Curso de Desenvolvimento Mobile | Rocketseat",
+    // },
   ]
 
   const skills = [
