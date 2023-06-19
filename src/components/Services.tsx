@@ -43,7 +43,7 @@ const Services = () => {
       <div className="mt-6 flex flex-col gap-2 md:flex-row">
         {services.map((service, index) => (
           <div
-            className="basis-1/3 rounded-lg bg-blue-700 p-4 text-white"
+            className="basis-1/3 rounded-lg bg-blue-700 p-4 text-white flex flex-col justify-center items-center"
             key={`service-${index}`}
           >
             <div className="mb-2">{service.icon}</div>

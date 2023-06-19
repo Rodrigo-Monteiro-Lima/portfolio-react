@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import Carousel from './components/Carrousel';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
@@ -16,7 +17,7 @@ const App = () => {
       <Services />
       <Projects />
       <Skills />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer /> 
     </main>
