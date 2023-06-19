@@ -1,3 +1,5 @@
+import photo from "../assets/foto.jpeg";
+
 const About = () => {
   return (
     <section className="container mx-auto my-4 max-w-5xl p-4">
@@ -86,7 +88,12 @@ const About = () => {
             </tbody>
           </table>
         </div>
-        <div className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-[url('src/assets/foto.jpeg')] bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"></div>
+        <div 
+          className="absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56"
+          style={{ 
+            backgroundImage: `url('${photo}')`,
+          }}
+        ></div>
       </div>
     </div>
   </section>
