@@ -28,12 +28,12 @@ const About = () => {
 
           <table className="mt-4 w-full text-sm">
             <tbody>
-              <tr>
+              {/* <tr>
                 <td className="font-headline font-bold uppercase text-blue-900">
                   Idade:
                 </td>
                 <td>23</td>
-              </tr>
+              </tr> */}
               <tr>
                 <td className="font-headline font-bold uppercase text-blue-900">
                   Celular:
