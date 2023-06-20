@@ -1,5 +1,5 @@
 import { HiDownload } from "react-icons/hi";
-import cv from "../assets/CV- Rodrigo.pdf";
+import cv from "../assets/CV Rodrigo.pdf";
 
 const Hero = () => {
   return (
